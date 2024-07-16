@@ -6,7 +6,7 @@ public class QueueBook {
 
     private int max;    // 큐 용량
     private int num;    // 현재 데이터 수
-    private int[] queue;    // 큐 본체
+    private final int[] queue;    // 큐 본체
 
     public class EmptyQueueException extends RuntimeException {}
 
